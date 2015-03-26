@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECC7BC271AC45D200022CB92 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECC7BC261AC45D200022CB92 /* Foundation.framework */; };
+		ECC7BC291AC45D200022CB92 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECC7BC281AC45D200022CB92 /* CoreGraphics.framework */; };
+		ECC7BC2B1AC45D200022CB92 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECC7BC2A1AC45D200022CB92 /* UIKit.framework */; };
+		ECC7BC311AC45D200022CB92 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ECC7BC2F1AC45D200022CB92 /* InfoPlist.strings */; };
+		ECC7BC331AC45D200022CB92 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC7BC321AC45D200022CB92 /* main.m */; };
+		ECC7BC371AC45D200022CB92 /* CNAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC7BC361AC45D200022CB92 /* CNAppDelegate.m */; };
+		ECC7BC3A1AC45D200022CB92 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECC7BC381AC45D200022CB92 /* Main_iPhone.storyboard */; };
+		ECC7BC3D1AC45D200022CB92 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECC7BC3B1AC45D200022CB92 /* Main_iPad.storyboard */; };
+		ECC7BC401AC45D200022CB92 /* CNFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC7BC3F1AC45D200022CB92 /* CNFirstViewController.m */; };
+		ECC7BC431AC45D200022CB92 /* CNSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC7BC421AC45D200022CB92 /* CNSecondViewController.m */; };
+		ECC7BC451AC45D200022CB92 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECC7BC441AC45D200022CB92 /* Images.xcassets */; };
+		ECC7BC4C1AC45D200022CB92 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECC7BC4B1AC45D200022CB92 /* XCTest.framework */; };
+		ECC7BC4D1AC45D200022CB92 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECC7BC261AC45D200022CB92 /* Foundation.framework */; };
+		ECC7BC4E1AC45D200022CB92 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECC7BC2A1AC45D200022CB92 /* UIKit.framework */; };
+		ECC7BC561AC45D200022CB92 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ECC7BC541AC45D200022CB92 /* InfoPlist.strings */; };
+		ECC7BC581AC45D200022CB92 /* CNGiatieuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC7BC571AC45D200022CB92 /* CNGiatieuTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECC7BC4F1AC45D200022CB92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECC7BC1B1AC45D200022CB92 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECC7BC221AC45D200022CB92;
+			remoteInfo = CNGiatieu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ECC7BC231AC45D200022CB92 /* CNGiatieu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CNGiatieu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECC7BC261AC45D200022CB92 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ECC7BC281AC45D200022CB92 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ECC7BC2A1AC45D200022CB92 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ECC7BC2E1AC45D200022CB92 /* CNGiatieu-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CNGiatieu-Info.plist"; sourceTree = "<group>"; };
+		ECC7BC301AC45D200022CB92 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ECC7BC321AC45D200022CB92 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ECC7BC341AC45D200022CB92 /* CNGiatieu-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CNGiatieu-Prefix.pch"; sourceTree = "<group>"; };
+		ECC7BC351AC45D200022CB92 /* CNAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNAppDelegate.h; sourceTree = "<group>"; };
+		ECC7BC361AC45D200022CB92 /* CNAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNAppDelegate.m; sourceTree = "<group>"; };
+		ECC7BC391AC45D200022CB92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		ECC7BC3C1AC45D200022CB92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		ECC7BC3E1AC45D200022CB92 /* CNFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNFirstViewController.h; sourceTree = "<group>"; };
+		ECC7BC3F1AC45D200022CB92 /* CNFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNFirstViewController.m; sourceTree = "<group>"; };
+		ECC7BC411AC45D200022CB92 /* CNSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNSecondViewController.h; sourceTree = "<group>"; };
+		ECC7BC421AC45D200022CB92 /* CNSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNSecondViewController.m; sourceTree = "<group>"; };
+		ECC7BC441AC45D200022CB92 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ECC7BC4A1AC45D200022CB92 /* CNGiatieuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CNGiatieuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECC7BC4B1AC45D200022CB92 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		ECC7BC531AC45D200022CB92 /* CNGiatieuTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CNGiatieuTests-Info.plist"; sourceTree = "<group>"; };
+		ECC7BC551AC45D200022CB92 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ECC7BC571AC45D200022CB92 /* CNGiatieuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNGiatieuTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECC7BC201AC45D200022CB92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECC7BC291AC45D200022CB92 /* CoreGraphics.framework in Frameworks */,
+				ECC7BC2B1AC45D200022CB92 /* UIKit.framework in Frameworks */,
+				ECC7BC271AC45D200022CB92 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECC7BC471AC45D200022CB92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECC7BC4C1AC45D200022CB92 /* XCTest.framework in Frameworks */,
+				ECC7BC4E1AC45D200022CB92 /* UIKit.framework in Frameworks */,
+				ECC7BC4D1AC45D200022CB92 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECC7BC1A1AC45D200022CB92 = {
+			isa = PBXGroup;
+			children = (
+				ECC7BC2C1AC45D200022CB92 /* CNGiatieu */,
+				ECC7BC511AC45D200022CB92 /* CNGiatieuTests */,
+				ECC7BC251AC45D200022CB92 /* Frameworks */,
+				ECC7BC241AC45D200022CB92 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECC7BC241AC45D200022CB92 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECC7BC231AC45D200022CB92 /* CNGiatieu.app */,
+				ECC7BC4A1AC45D200022CB92 /* CNGiatieuTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECC7BC251AC45D200022CB92 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ECC7BC261AC45D200022CB92 /* Foundation.framework */,
+				ECC7BC281AC45D200022CB92 /* CoreGraphics.framework */,
+				ECC7BC2A1AC45D200022CB92 /* UIKit.framework */,
+				ECC7BC4B1AC45D200022CB92 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ECC7BC2C1AC45D200022CB92 /* CNGiatieu */ = {
+			isa = PBXGroup;
+			children = (
+				ECC7BC351AC45D200022CB92 /* CNAppDelegate.h */,
+				ECC7BC361AC45D200022CB92 /* CNAppDelegate.m */,
+				ECC7BC381AC45D200022CB92 /* Main_iPhone.storyboard */,
+				ECC7BC3B1AC45D200022CB92 /* Main_iPad.storyboard */,
+				ECC7BC3E1AC45D200022CB92 /* CNFirstViewController.h */,
+				ECC7BC3F1AC45D200022CB92 /* CNFirstViewController.m */,
+				ECC7BC411AC45D200022CB92 /* CNSecondViewController.h */,
+				ECC7BC421AC45D200022CB92 /* CNSecondViewController.m */,
+				ECC7BC441AC45D200022CB92 /* Images.xcassets */,
+				ECC7BC2D1AC45D200022CB92 /* Supporting Files */,
+			);
+			path = CNGiatieu;
+			sourceTree = "<group>";
+		};
+		ECC7BC2D1AC45D200022CB92 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECC7BC2E1AC45D200022CB92 /* CNGiatieu-Info.plist */,
+				ECC7BC2F1AC45D200022CB92 /* InfoPlist.strings */,
+				ECC7BC321AC45D200022CB92 /* main.m */,
+				ECC7BC341AC45D200022CB92 /* CNGiatieu-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ECC7BC511AC45D200022CB92 /* CNGiatieuTests */ = {
+			isa = PBXGroup;
+			children = (
+				ECC7BC571AC45D200022CB92 /* CNGiatieuTests.m */,
+				ECC7BC521AC45D200022CB92 /* Supporting Files */,
+			);
+			path = CNGiatieuTests;
+			sourceTree = "<group>";
+		};
+		ECC7BC521AC45D200022CB92 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECC7BC531AC45D200022CB92 /* CNGiatieuTests-Info.plist */,
+				ECC7BC541AC45D200022CB92 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECC7BC221AC45D200022CB92 /* CNGiatieu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECC7BC5B1AC45D200022CB92 /* Build configuration list for PBXNativeTarget "CNGiatieu" */;
+			buildPhases = (
+				ECC7BC1F1AC45D200022CB92 /* Sources */,
+				ECC7BC201AC45D200022CB92 /* Frameworks */,
+				ECC7BC211AC45D200022CB92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CNGiatieu;
+			productName = CNGiatieu;
+			productReference = ECC7BC231AC45D200022CB92 /* CNGiatieu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECC7BC491AC45D200022CB92 /* CNGiatieuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECC7BC5E1AC45D200022CB92 /* Build configuration list for PBXNativeTarget "CNGiatieuTests" */;
+			buildPhases = (
+				ECC7BC461AC45D200022CB92 /* Sources */,
+				ECC7BC471AC45D200022CB92 /* Frameworks */,
+				ECC7BC481AC45D200022CB92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECC7BC501AC45D200022CB92 /* PBXTargetDependency */,
+			);
+			name = CNGiatieuTests;
+			productName = CNGiatieuTests;
+			productReference = ECC7BC4A1AC45D200022CB92 /* CNGiatieuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECC7BC1B1AC45D200022CB92 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CN;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = CenaSam;
+				TargetAttributes = {
+					ECC7BC491AC45D200022CB92 = {
+						TestTargetID = ECC7BC221AC45D200022CB92;
+					};
+				};
+			};
+			buildConfigurationList = ECC7BC1E1AC45D200022CB92 /* Build configuration list for PBXProject "CNGiatieu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECC7BC1A1AC45D200022CB92;
+			productRefGroup = ECC7BC241AC45D200022CB92 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECC7BC221AC45D200022CB92 /* CNGiatieu */,
+				ECC7BC491AC45D200022CB92 /* CNGiatieuTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECC7BC211AC45D200022CB92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECC7BC3D1AC45D200022CB92 /* Main_iPad.storyboard in Resources */,
+				ECC7BC451AC45D200022CB92 /* Images.xcassets in Resources */,
+				ECC7BC3A1AC45D200022CB92 /* Main_iPhone.storyboard in Resources */,
+				ECC7BC311AC45D200022CB92 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECC7BC481AC45D200022CB92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECC7BC561AC45D200022CB92 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECC7BC1F1AC45D200022CB92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECC7BC401AC45D200022CB92 /* CNFirstViewController.m in Sources */,
+				ECC7BC331AC45D200022CB92 /* main.m in Sources */,
+				ECC7BC371AC45D200022CB92 /* CNAppDelegate.m in Sources */,
+				ECC7BC431AC45D200022CB92 /* CNSecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECC7BC461AC45D200022CB92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECC7BC581AC45D200022CB92 /* CNGiatieuTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECC7BC501AC45D200022CB92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECC7BC221AC45D200022CB92 /* CNGiatieu */;
+			targetProxy = ECC7BC4F1AC45D200022CB92 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ECC7BC2F1AC45D200022CB92 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECC7BC301AC45D200022CB92 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ECC7BC381AC45D200022CB92 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECC7BC391AC45D200022CB92 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		ECC7BC3B1AC45D200022CB92 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECC7BC3C1AC45D200022CB92 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		ECC7BC541AC45D200022CB92 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECC7BC551AC45D200022CB92 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECC7BC591AC45D200022CB92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ECC7BC5A1AC45D200022CB92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECC7BC5C1AC45D200022CB92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CNGiatieu/CNGiatieu-Prefix.pch";
+				INFOPLIST_FILE = "CNGiatieu/CNGiatieu-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ECC7BC5D1AC45D200022CB92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CNGiatieu/CNGiatieu-Prefix.pch";
+				INFOPLIST_FILE = "CNGiatieu/CNGiatieu-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		ECC7BC5F1AC45D200022CB92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CNGiatieu.app/CNGiatieu";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CNGiatieu/CNGiatieu-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CNGiatieuTests/CNGiatieuTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		ECC7BC601AC45D200022CB92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CNGiatieu.app/CNGiatieu";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CNGiatieu/CNGiatieu-Prefix.pch";
+				INFOPLIST_FILE = "CNGiatieuTests/CNGiatieuTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECC7BC1E1AC45D200022CB92 /* Build configuration list for PBXProject "CNGiatieu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECC7BC591AC45D200022CB92 /* Debug */,
+				ECC7BC5A1AC45D200022CB92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECC7BC5B1AC45D200022CB92 /* Build configuration list for PBXNativeTarget "CNGiatieu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECC7BC5C1AC45D200022CB92 /* Debug */,
+				ECC7BC5D1AC45D200022CB92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ECC7BC5E1AC45D200022CB92 /* Build configuration list for PBXNativeTarget "CNGiatieuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECC7BC5F1AC45D200022CB92 /* Debug */,
+				ECC7BC601AC45D200022CB92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECC7BC1B1AC45D200022CB92 /* Project object */;
+}
