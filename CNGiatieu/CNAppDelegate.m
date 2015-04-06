@@ -13,6 +13,21 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    [[UITabBar appearance] setTintColor:[UIColor whiteColor]];
+    [[UITabBar appearance] setTintAdjustmentMode:UIViewTintAdjustmentModeDimmed];
+    [[UITabBar appearance] setBarTintColor:[UIColor colorWithRed:0.105 green:0.172 blue:0.394 alpha:1.000]];
+    
+    UIView *selectedView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 64, 60)];
+    selectedView.backgroundColor = [UIColor colorWithRed:0.070 green:0.081 blue:0.617 alpha:1.000];
+    
+//    [UITabBarItem appearance] setSelectedImage:[UIImage imageWithCGImage:<#(CGImageRef)#>]
+    
+    
+    
+    
+    // Custom navigation bar
+//    [UINavigationBar appearance].backgroundColor = color;
     return YES;
 }
 							

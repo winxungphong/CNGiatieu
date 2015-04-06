@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CNSecondViewController : UIViewController
+@interface CNSecondViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
+@property (weak, nonatomic) IBOutlet UILabel *lblDate;
+
+
+
 
 @end

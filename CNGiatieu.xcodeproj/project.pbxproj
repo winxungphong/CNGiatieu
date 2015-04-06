@@ -7,6 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC014B571AC68D8400877573 /* CNThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC014B561AC68D8400877573 /* CNThirdViewController.m */; };
+		EC014B5A1AC68DA400877573 /* CNForthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC014B591AC68DA400877573 /* CNForthViewController.m */; };
+		EC014B5D1AC68E3E00877573 /* CNFifthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC014B5C1AC68E3E00877573 /* CNFifthViewController.m */; };
+		EC014B621AC6A86600877573 /* CNPriceTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EC014B601AC6A86600877573 /* CNPriceTableViewCell.m */; };
+		EC014B631AC6A86600877573 /* CNPriceTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC014B611AC6A86600877573 /* CNPriceTableViewCell.xib */; };
+		EC27A66C1AC6EDE00018A08D /* Cheap 2-50.png in Resources */ = {isa = PBXBuildFile; fileRef = EC27A66B1AC6EDE00018A08D /* Cheap 2-50.png */; };
+		EC27A6761AC6F4DF0018A08D /* dollar-sign.png in Resources */ = {isa = PBXBuildFile; fileRef = EC27A6711AC6F4DF0018A08D /* dollar-sign.png */; };
+		EC27A6771AC6F4DF0018A08D /* forklift.png in Resources */ = {isa = PBXBuildFile; fileRef = EC27A6721AC6F4DF0018A08D /* forklift.png */; };
+		EC27A6781AC6F4DF0018A08D /* grape.png in Resources */ = {isa = PBXBuildFile; fileRef = EC27A6731AC6F4DF0018A08D /* grape.png */; };
+		EC27A6791AC6F4DF0018A08D /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = EC27A6741AC6F4DF0018A08D /* home.png */; };
+		EC27A67A1AC6F4DF0018A08D /* tree.png in Resources */ = {isa = PBXBuildFile; fileRef = EC27A6751AC6F4DF0018A08D /* tree.png */; };
+		EC27A6811AC70AC00018A08D /* CNGetPriceByDate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC27A6801AC70AC00018A08D /* CNGetPriceByDate.m */; };
+		EC27A6841AC714070018A08D /* CNBackgroundLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = EC27A6831AC714070018A08D /* CNBackgroundLayer.m */; };
+		EC40F1BF1AC6E19F00000D75 /* CNCustomActivityIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = EC40F1BE1AC6E19F00000D75 /* CNCustomActivityIndicator.m */; };
+		ECC0C91B1AC853CE00CFE8B3 /* CNGiatieuModel.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC0C91A1AC853CE00CFE8B3 /* CNGiatieuModel.m */; };
+		ECC0C91E1AC85B3B00CFE8B3 /* CNCustomHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC0C91D1AC85B3B00CFE8B3 /* CNCustomHeader.m */; };
+		ECC2C61F1AC66FB100F08BDD /* CNTieuModel.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC2C61E1AC66FB100F08BDD /* CNTieuModel.m */; };
 		ECC7BC271AC45D200022CB92 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECC7BC261AC45D200022CB92 /* Foundation.framework */; };
 		ECC7BC291AC45D200022CB92 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECC7BC281AC45D200022CB92 /* CoreGraphics.framework */; };
 		ECC7BC2B1AC45D200022CB92 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECC7BC2A1AC45D200022CB92 /* UIKit.framework */; };
@@ -36,6 +53,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EC014B551AC68D8400877573 /* CNThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNThirdViewController.h; sourceTree = "<group>"; };
+		EC014B561AC68D8400877573 /* CNThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CNThirdViewController.m; sourceTree = "<group>"; };
+		EC014B581AC68DA400877573 /* CNForthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNForthViewController.h; sourceTree = "<group>"; };
+		EC014B591AC68DA400877573 /* CNForthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CNForthViewController.m; sourceTree = "<group>"; };
+		EC014B5B1AC68E3E00877573 /* CNFifthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNFifthViewController.h; sourceTree = "<group>"; };
+		EC014B5C1AC68E3E00877573 /* CNFifthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CNFifthViewController.m; sourceTree = "<group>"; };
+		EC014B5F1AC6A86600877573 /* CNPriceTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CNPriceTableViewCell.h; path = "Table Price style/CNPriceTableViewCell.h"; sourceTree = "<group>"; };
+		EC014B601AC6A86600877573 /* CNPriceTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CNPriceTableViewCell.m; path = "Table Price style/CNPriceTableViewCell.m"; sourceTree = "<group>"; };
+		EC014B611AC6A86600877573 /* CNPriceTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CNPriceTableViewCell.xib; path = "Table Price style/CNPriceTableViewCell.xib"; sourceTree = "<group>"; };
+		EC27A66B1AC6EDE00018A08D /* Cheap 2-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Cheap 2-50.png"; path = "Resources/Cheap 2-50.png"; sourceTree = "<group>"; };
+		EC27A6711AC6F4DF0018A08D /* dollar-sign.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "dollar-sign.png"; path = "Resources/dollar-sign.png"; sourceTree = "<group>"; };
+		EC27A6721AC6F4DF0018A08D /* forklift.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = forklift.png; path = Resources/forklift.png; sourceTree = "<group>"; };
+		EC27A6731AC6F4DF0018A08D /* grape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = grape.png; path = Resources/grape.png; sourceTree = "<group>"; };
+		EC27A6741AC6F4DF0018A08D /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = home.png; path = Resources/home.png; sourceTree = "<group>"; };
+		EC27A6751AC6F4DF0018A08D /* tree.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tree.png; path = Resources/tree.png; sourceTree = "<group>"; };
+		EC27A67F1AC70AC00018A08D /* CNGetPriceByDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CNGetPriceByDate.h; path = "API Models/CNGetPriceByDate.h"; sourceTree = "<group>"; };
+		EC27A6801AC70AC00018A08D /* CNGetPriceByDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CNGetPriceByDate.m; path = "API Models/CNGetPriceByDate.m"; sourceTree = "<group>"; };
+		EC27A6821AC714070018A08D /* CNBackgroundLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CNBackgroundLayer.h; path = "Custom UI/CNBackgroundLayer.h"; sourceTree = "<group>"; };
+		EC27A6831AC714070018A08D /* CNBackgroundLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CNBackgroundLayer.m; path = "Custom UI/CNBackgroundLayer.m"; sourceTree = "<group>"; };
+		EC40F1BD1AC6E19F00000D75 /* CNCustomActivityIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CNCustomActivityIndicator.h; path = "Custom UI/CNCustomActivityIndicator.h"; sourceTree = "<group>"; };
+		EC40F1BE1AC6E19F00000D75 /* CNCustomActivityIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CNCustomActivityIndicator.m; path = "Custom UI/CNCustomActivityIndicator.m"; sourceTree = "<group>"; };
+		ECC0C9191AC853CE00CFE8B3 /* CNGiatieuModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CNGiatieuModel.h; path = "Giatieu Models/CNGiatieuModel.h"; sourceTree = "<group>"; };
+		ECC0C91A1AC853CE00CFE8B3 /* CNGiatieuModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CNGiatieuModel.m; path = "Giatieu Models/CNGiatieuModel.m"; sourceTree = "<group>"; };
+		ECC0C91C1AC85B3B00CFE8B3 /* CNCustomHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CNCustomHeader.h; path = "Custom UI/CNCustomHeader.h"; sourceTree = "<group>"; };
+		ECC0C91D1AC85B3B00CFE8B3 /* CNCustomHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CNCustomHeader.m; path = "Custom UI/CNCustomHeader.m"; sourceTree = "<group>"; };
+		ECC2C61D1AC66FB100F08BDD /* CNTieuModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CNTieuModel.h; path = "Giatieu Models/CNTieuModel.h"; sourceTree = "<group>"; };
+		ECC2C61E1AC66FB100F08BDD /* CNTieuModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CNTieuModel.m; path = "Giatieu Models/CNTieuModel.m"; sourceTree = "<group>"; };
 		ECC7BC231AC45D200022CB92 /* CNGiatieu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CNGiatieu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECC7BC261AC45D200022CB92 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		ECC7BC281AC45D200022CB92 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -84,6 +128,71 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EC014B5E1AC6A83000877573 /* Table Price style */ = {
+			isa = PBXGroup;
+			children = (
+				EC014B5F1AC6A86600877573 /* CNPriceTableViewCell.h */,
+				EC014B601AC6A86600877573 /* CNPriceTableViewCell.m */,
+				EC014B611AC6A86600877573 /* CNPriceTableViewCell.xib */,
+			);
+			name = "Table Price style";
+			sourceTree = "<group>";
+		};
+		EC014B641AC6E12B00877573 /* Custom UI */ = {
+			isa = PBXGroup;
+			children = (
+				EC27A66D1AC6EEB80018A08D /* Indicator */,
+				EC40F1BD1AC6E19F00000D75 /* CNCustomActivityIndicator.h */,
+				EC40F1BE1AC6E19F00000D75 /* CNCustomActivityIndicator.m */,
+				EC27A6821AC714070018A08D /* CNBackgroundLayer.h */,
+				EC27A6831AC714070018A08D /* CNBackgroundLayer.m */,
+				ECC0C91C1AC85B3B00CFE8B3 /* CNCustomHeader.h */,
+				ECC0C91D1AC85B3B00CFE8B3 /* CNCustomHeader.m */,
+			);
+			name = "Custom UI";
+			sourceTree = "<group>";
+		};
+		EC27A66D1AC6EEB80018A08D /* Indicator */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Indicator;
+			path = "Custom UI/Indicator";
+			sourceTree = "<group>";
+		};
+		EC27A67B1AC6FD610018A08D /* API Models */ = {
+			isa = PBXGroup;
+			children = (
+				EC27A67F1AC70AC00018A08D /* CNGetPriceByDate.h */,
+				EC27A6801AC70AC00018A08D /* CNGetPriceByDate.m */,
+			);
+			name = "API Models";
+			sourceTree = "<group>";
+		};
+		EC40F1C01AC6EDC600000D75 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				EC27A6711AC6F4DF0018A08D /* dollar-sign.png */,
+				EC27A6721AC6F4DF0018A08D /* forklift.png */,
+				EC27A6731AC6F4DF0018A08D /* grape.png */,
+				EC27A6741AC6F4DF0018A08D /* home.png */,
+				EC27A6751AC6F4DF0018A08D /* tree.png */,
+				EC27A66B1AC6EDE00018A08D /* Cheap 2-50.png */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		ECC2C61C1AC66F4E00F08BDD /* Giatieu Models */ = {
+			isa = PBXGroup;
+			children = (
+				ECC2C61D1AC66FB100F08BDD /* CNTieuModel.h */,
+				ECC2C61E1AC66FB100F08BDD /* CNTieuModel.m */,
+				ECC0C9191AC853CE00CFE8B3 /* CNGiatieuModel.h */,
+				ECC0C91A1AC853CE00CFE8B3 /* CNGiatieuModel.m */,
+			);
+			name = "Giatieu Models";
+			sourceTree = "<group>";
+		};
 		ECC7BC1A1AC45D200022CB92 = {
 			isa = PBXGroup;
 			children = (
@@ -117,6 +226,11 @@
 		ECC7BC2C1AC45D200022CB92 /* CNGiatieu */ = {
 			isa = PBXGroup;
 			children = (
+				EC27A67B1AC6FD610018A08D /* API Models */,
+				EC40F1C01AC6EDC600000D75 /* Resource */,
+				EC014B641AC6E12B00877573 /* Custom UI */,
+				EC014B5E1AC6A83000877573 /* Table Price style */,
+				ECC2C61C1AC66F4E00F08BDD /* Giatieu Models */,
 				ECC7BC351AC45D200022CB92 /* CNAppDelegate.h */,
 				ECC7BC361AC45D200022CB92 /* CNAppDelegate.m */,
 				ECC7BC381AC45D200022CB92 /* Main_iPhone.storyboard */,
@@ -125,6 +239,12 @@
 				ECC7BC3F1AC45D200022CB92 /* CNFirstViewController.m */,
 				ECC7BC411AC45D200022CB92 /* CNSecondViewController.h */,
 				ECC7BC421AC45D200022CB92 /* CNSecondViewController.m */,
+				EC014B551AC68D8400877573 /* CNThirdViewController.h */,
+				EC014B561AC68D8400877573 /* CNThirdViewController.m */,
+				EC014B581AC68DA400877573 /* CNForthViewController.h */,
+				EC014B591AC68DA400877573 /* CNForthViewController.m */,
+				EC014B5B1AC68E3E00877573 /* CNFifthViewController.h */,
+				EC014B5C1AC68E3E00877573 /* CNFifthViewController.m */,
 				ECC7BC441AC45D200022CB92 /* Images.xcassets */,
 				ECC7BC2D1AC45D200022CB92 /* Supporting Files */,
 			);
@@ -237,9 +357,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC27A6771AC6F4DF0018A08D /* forklift.png in Resources */,
+				EC27A67A1AC6F4DF0018A08D /* tree.png in Resources */,
+				EC27A66C1AC6EDE00018A08D /* Cheap 2-50.png in Resources */,
 				ECC7BC3D1AC45D200022CB92 /* Main_iPad.storyboard in Resources */,
+				EC27A6781AC6F4DF0018A08D /* grape.png in Resources */,
+				EC27A6761AC6F4DF0018A08D /* dollar-sign.png in Resources */,
 				ECC7BC451AC45D200022CB92 /* Images.xcassets in Resources */,
+				EC27A6791AC6F4DF0018A08D /* home.png in Resources */,
 				ECC7BC3A1AC45D200022CB92 /* Main_iPhone.storyboard in Resources */,
+				EC014B631AC6A86600877573 /* CNPriceTableViewCell.xib in Resources */,
 				ECC7BC311AC45D200022CB92 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,10 +386,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECC0C91E1AC85B3B00CFE8B3 /* CNCustomHeader.m in Sources */,
+				ECC0C91B1AC853CE00CFE8B3 /* CNGiatieuModel.m in Sources */,
 				ECC7BC401AC45D200022CB92 /* CNFirstViewController.m in Sources */,
+				EC014B571AC68D8400877573 /* CNThirdViewController.m in Sources */,
 				ECC7BC331AC45D200022CB92 /* main.m in Sources */,
+				EC014B5D1AC68E3E00877573 /* CNFifthViewController.m in Sources */,
+				EC27A6811AC70AC00018A08D /* CNGetPriceByDate.m in Sources */,
 				ECC7BC371AC45D200022CB92 /* CNAppDelegate.m in Sources */,
 				ECC7BC431AC45D200022CB92 /* CNSecondViewController.m in Sources */,
+				EC014B5A1AC68DA400877573 /* CNForthViewController.m in Sources */,
+				EC27A6841AC714070018A08D /* CNBackgroundLayer.m in Sources */,
+				ECC2C61F1AC66FB100F08BDD /* CNTieuModel.m in Sources */,
+				EC40F1BF1AC6E19F00000D75 /* CNCustomActivityIndicator.m in Sources */,
+				EC014B621AC6A86600877573 /* CNPriceTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -477,6 +614,7 @@
 				ECC7BC5D1AC45D200022CB92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ECC7BC5E1AC45D200022CB92 /* Build configuration list for PBXNativeTarget "CNGiatieuTests" */ = {
 			isa = XCConfigurationList;
@@ -485,6 +623,7 @@
 				ECC7BC601AC45D200022CB92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
